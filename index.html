@@ -2,60 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GymStack</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="cabecera">
-        <h1 class="logo">GymStack</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#seccion">Tarifas</a></li>
-                <li><a href="#info">Clases</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1>GymStack</h1>
+    <p>Entrena a tu ritmo.</p>
+    <a href="#lista" class="boton">Ver tarifas</a>
 
-    <main>
-        <section class="portada">
-            <h2>Entrena a tu ritmo</h2>
-            <p>Sala de musculación, clases dirigidas y entrenadores personales.</p>
-            <a href="#seccion" class="boton">Ver tarifas</a>
-        </section>
+    <!-- Lista de productos -->
+    <h2 id="lista">Tarifas</h2>
+    <ul>
+        <li class="tarjeta">Básica</li>
+        <li class="tarjeta">Completa</li>
+        <li class="tarjeta">Premium</li>
+    </ul>
 
-        <!-- Sección principal de la página -->
-        <section id="seccion" class="listado">
-            <h2>Tarifas</h2>
-            <div class="productos">
-                <article class="tarjeta">
-                    <h3>Básica</h3>
-                    <p>Acceso a sala de 7:00 a 15:00.</p>
-                    <span class="precio">25 €/mes</span>
-                </article>
-                <article class="tarjeta">
-                    <h3>Completa</h3>
-                    <p>Sala y clases dirigidas sin límite.</p>
-                    <span class="precio">39 €/mes</span>
-                </article>
-                <article class="tarjeta">
-                    <h3>Premium</h3>
-                    <p>Todo incluido y 2 sesiones de entrenador.</p>
-                    <span class="precio">59 €/mes</span>
-                </article>
-            </div>
-        </section>
-
-        <section id="info" class="info">
-            <h2>Clases</h2>
-            <p>Spinning: lunes y miércoles 19:00</p>
-            <p>Yoga: martes y jueves 18:00</p>
-        </section>
-    </main>
-
-    <footer id="contacto" class="pie">
-        <p>Avenida del Deporte, 15 · info@gymstack.es</p>
-    </footer>
+    <p class="pie">Avenida del Deporte, 15</p>
 </body>
 </html>
